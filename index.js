@@ -253,8 +253,8 @@ async function starts() {
 			client.chatRead (from)
 
 			mess = {
-				wait: '[TUNGGU] ICHI sedang Memperoses🍥Orang sabar Di Sayang Dajal!',
-				asik: '[TUNGGU] ICHI sedang Memperoses🍥Orang sabar Di Sayang Dajal!',
+				wait: '[TUNGGU] Zan sedang Memperoses🍥Orang sabar Di Sayang Dajal!',
+				asik: '[TUNGGU] Zan sedang Memperoses🍥Orang sabar Di Sayang Dajal!',
 				success: '✔️ Berhasil ✔️',
 				levelon: '[ON] *Leveling Telah aktif Ayo Kak Naikan Lvl Mu dengan Cara Aktif di grup ini*',
 				leveloff: '[OFF]  *Yah Leveling Telah Di NonAktifkan T_T*',
@@ -278,11 +278,11 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["628165466368@s.whatsapp.net"] // replace this with your number
-			const mod = [ownerNumber,"628165466368@s.whatsapp.net"]//ubah nomor lo
-			const adminbotnumber = ["628165466368@s.whatsapp.net"]//ubah nomor lo
-			const frendsowner = ["628165466368@s.whatsapp.net"]//ubah nomor lo
-			const premium = ["628165466368@s.whatsapp.net","6282286737721@s.whatsapp.net"]
+			const ownerNumber = ["6282291992581@s.whatsapp.net"] // replace this with your number
+			const mod = [ownerNumber,"6282291992581@s.whatsapp.net"]//ubah nomor lo
+			const adminbotnumber = ["6282291992581@s.whatsapp.net"]//ubah nomor lo
+			const frendsowner = ["6282291992581@s.whatsapp.net"]//ubah nomor lo
+			const premium = ["6282291992581@s.whatsapp.net","6282286737721@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -1878,7 +1878,8 @@ if (isBanned) return reply(mess.only.benned)
 					teks = body.slice(6)
 					if (teks.length > 9) return reply('Teksnya kepanjangan, maksimal 9 karakter')
 					reply(mess.wait)
-					Buffer = await getBuffer(`https://tobz-api.herokuapp.com/api/photooxy?theme=wood_block&text=${teks}&apikey=kontol`)
+					Buffer = await getBuffer(`https://tobz-api.herokuapp.com/api/photooxy?theme=wood_block&text=${teks}&apikey=kontol`)
+
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: ''+teks})
 					break
 				case 'thunder':
