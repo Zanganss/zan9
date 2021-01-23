@@ -22,7 +22,7 @@ const vipmenu = (prefix) => {
 ╰─⊱  *${prefix}indo(1-25)*
 ╰─⊱  *CONTOH ${prefix}indo1*
 ║
-╚══✪〘  ICHI BOT 〙✪══
+╚══✪〘  Zan Botz 〙✪══
 `
 }
 exports.vipmenu = vipmenu
