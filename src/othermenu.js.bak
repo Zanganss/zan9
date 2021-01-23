@@ -39,6 +39,6 @@ const othermenu = (prefix) => {
 ╠➥ *${prefix}anjing*
 ╠➥ *${prefix}randomcat*
 ║
-╚═〘 DARK BOT 〙`
+╚═〘 Zan Botz〙`
 }
 exports.othermenu = othermenu
