@@ -1,6 +1,6 @@
 const listsay = () => { 
 	return `
 	
-	-ankergans`
+	-Zan Gans`
             }
 exports.listsay = listsay
