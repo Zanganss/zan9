@@ -21,6 +21,6 @@ const nsfwmenu = (prefix) => {
 ╰─⊱ *${prefix}kodenuklir*
 ╰─⊱ *${prefix}nekopoi*
 ║
-╚═〘  ICHI BOT 〙`
+╚═〘  Zan botz 〙`
 }
 exports.nsfwmenu = nsfwmenu
